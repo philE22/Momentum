@@ -1,3 +1,70 @@
 .hidden {
   display: none;
 }
+
+
+#bg {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  
+}
+
+#info{
+  display: flex;
+  position: relative;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#clock{
+  position: absolute;
+  font-size: 100px;
+  top: 30px;
+}
+
+.quote-line{
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#quotes {
+  position: relative;
+  font-size: 25px;
+  bottom: 5px;
+}
+
+.weather {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#todo-list {
+
+}
+
+#todo-list li span{
+  font-size: 20px;
+padding-right: 10px;
+}
+
+#todo-list li button{
+  border-radius: 25%;
+  background-color: tomato;
+  font-size: 15px;
+  font-weight: 500;
+}
